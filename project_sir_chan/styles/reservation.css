@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #8e8e7e;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    color: #36d84c;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+.wrapper{
+    font-family: "Noto",Arial, Helvetica, sans-serif;
+}
+.form {
+    
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #a093fa;
+    border-radius: 20px 20px 0px 0px;
+    
+    overflow: hidden;
+    
+}
+.form h1{
+    color: #fff;
+    font-size: 3em;
+    font-family: "Kanit",Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 2em 0.5em 2em;
+    display: inline-block;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0a82c3;
+    border-radius: 20px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+}
+label{
+    display: inline;
+    background-color: #000;
+    border-radius: 30px 30px 30px 30px; 
+    padding: 5px;
+}
+input{
+    width: 80%;
+    text-align: center;
+    background-color: #d3d3d3;
+}
+input:hover{
+    background-color: #fff;
+}
+textarea {
+    width: 80%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+    width: 80%; 
+    padding: 8px; 
+    margin: 8px auto; 
+    display: block;
+    background-color: #d3d3d3;
+}
+textarea:hover{
+    background-color: #fff;
+}
+input {
+    text-align: left;
+    width: 80%; 
+    padding: 8px; 
+    margin: 8px auto; 
+    display: block; 
+}
+.reset{
+    background-color: aquamarine;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.reset:hover{
+    color: #fff;
+    background-color: #de0303;
+}
+.submit{
+    background-color: aquamarine;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.submit:hover{
+    color: #1a451f;
+    background-color: #00ec4b;
+}
+/* phone */
+@media only screen and (max-width: 670px){
+    .desktop{
+        display: none;
+    }
+    .form {
+        max-width: 100%;
+        height: auto;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.17);
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        background-color: #a093fa;
+        color: #00ec4b;
+        border-radius: 20px 20px 0px 0px;
+        overflow: hidden;
+            
+        }
+    nav {
+        background-image: url(image/view5.png);
+        background-color: #FFFFFF;
+        text-align: center;
+        display: block;
+        background-size: cover;
+        
+        
+        
+        
+    }
+    nav a {
+        text-decoration: none;
+        padding: 0.5em 2em 0.5em 2em;
+        display: inline-block;
+        background-color: aquamarine;
+        border-radius: 14px;
+        margin-bottom: 8px;
+        
+    }
+    nav a:hover {
+        transition: 0.5s;
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #0a82c3;
+        border-radius: 20px;
+    }
+    nav li{
+        list-style: none;
+        display: block;
+    }
+}
+.black{
+    color: #000;
+}
+/* desktop */
+@media only screen and (min-width: 670px) {
+    .Phone{
+        display: none;
+    }
+
+.black{
+    color: #000;
+}
+}

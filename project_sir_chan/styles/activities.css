@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.wrapper {
+    background-color: #44697d;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+    color: #ffffff;
+}
+.wrapper h1{
+    font-family: "Kanit",Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: "Noto",Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 2em 0.5em 2em;
+    display: inline-block;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0a82c3;
+    border-radius: 20px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+}
+*{
+    text-align: center;
+}
+main{
+    color: #FFFFFF;
+    font-family: "Noto",Arial, Helvetica, sans-serif;
+}
+main p{
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+}
+@media only screen and (max-width: 670px){
+    .desktop{
+        display: none;
+    }
+    .form {
+        max-width: 100%;
+        height: auto;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.17);
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        background-color: #cda4a4;
+        color: #00ec4b;
+        border-radius: 20px 20px 0px 0px;
+        overflow: hidden;
+        
+    }
+    nav {
+        background-image: url(image/view5.png);
+        background-color: #FFFFFF;
+        text-align: center;
+        display: block;
+        background-size: cover;
+        
+        
+        
+        
+    }
+    nav a {
+        text-decoration: none;
+        padding: 0.5em 2em 0.5em 2em;
+        display: inline-block;
+        background-color: aquamarine;
+        border-radius: 14px;
+        margin-bottom: 8px;
+        
+    }
+    nav a:hover {
+        transition: 0.5s;
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #0a82c3;
+        border-radius: 20px;
+    }
+    nav li{
+        list-style: none;
+        display: block;
+    }
+}
+/* desktop */
+@media only screen and (min-width: 670px) {
+    .Phone{
+        display: none;
+    }
+
+}
